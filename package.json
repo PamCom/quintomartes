@@ -4,7 +4,27 @@
 
   "main": "app.js",
   "scripts": {
-    "dev": "nodemon app.js"
+    "dev": "nodemon app.js",
+    "ejer1": "node ejer1.js",
+  "ejer2": "node ejer2.js",
+  "ejer3": "node ejer3.js",
+  "ejer4": "node ejer4.js",
+  "ejer5": "node ejer5.js",
+  "ejer6": "node ejer6.js",
+  "ejer7": "node ejer7.js",
+  "ejer8": "node ejer8.js",
+  "ejer9": "node ejer9.js",
+  "ejer10": "node ejer10.js",
+  "ejer11": "node ejer11.js",
+  "ejer12": "node ejer12.js",
+  "ejer13": "node ejer13.js",
+  "ejer14": "node ejer14.js",
+  "ejer15": "node ejer15.js",
+  "ejer16": "node ejer16.js",
+  "ejer17": "node ejer17.js",
+  "ejer18": "node ejer18.js",
+  "ejer19": "node ejer19.js",
+  "ejer20": "node ejer20.js"
   },
   "repository": {
     "type": "git",
