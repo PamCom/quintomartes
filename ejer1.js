@@ -1,3 +1,9 @@
-function sumarArray(arr) {
-    return arr.reduce((sum, num) => sum + (typeof num === 'number' ? num : 0), 0);
+function sumarArray() {
+    const arr = [1, 2, 3, 4];
+    const suma = arr.reduce((a, b) => a + b, 0);
+    console.log("sumam el array:", suma);
+  }
+  
+  if (require.main === module) {
+    sumarArray();
   }
