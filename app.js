@@ -1,4 +1,13 @@
-const showMessage=(message)=>{
-    return message;
+function busquedalineal(arr,elemento){
+    for(let i=0;i<arr.length;i++){
+        if(arr[i]===elemento){
+        return i;
+    }
+    }
+    return -1;
 }
-console.log(showMessage('Hola Gvhfgdfhmcf f arcio'))
+
+const arreglo=[10,2,3,8,4,9,7];
+const elementobuscado=7;
+const indice=busquedalineal(arreglo,elementobuscado);
+console.log(`El Elegarcio ${elementobuscado} se encuentra en el indice ${indice}`)
